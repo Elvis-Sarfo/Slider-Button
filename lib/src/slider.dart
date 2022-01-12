@@ -207,7 +207,8 @@ class _SliderButtonState extends State<SliderButton> {
               : Dismissible(
                   key: Key("cancel"),
                   direction: _direction,
-                  dismissThresholds: _dismissThresholds,
+                  // todo: Check the threadshold
+                  // dismissThresholds: _dismissThresholds,
 
                   onResize: () async {
                     if (widget.vibrationFlag! &&
